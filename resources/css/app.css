@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    overflow-y: scroll;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+.header-logo__title {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 0 0.8em 0 0.3em;
+    text-transform: uppercase;
+}
+
+.h-md-300 {
+    height: 300px;
+}
+
+.movie__poster {
+    background-position: center;
+    background-size:cover;
+}
+
+.movie__poster img {
+    width: 100%;
+}
+
+.movie{
+    position: relative;
+}
+
+.movie__favorite {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+.menu-link.active {
+    font-size: 1.3em;
+}
+
+/* Responsive navbar */
+#mobile-menu {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+}
+
+@media (max-width: 1024px) {
+    #menu {
+        display: none;
+    }
+}
+
+@media (min-width: 1024px) {
+    #mobile-menu {
+        display: none;
+    }
+}
