@@ -99,3 +99,7 @@ MAIL_FROM_NAME="${APP_NAME}"
     php artisan serve
 ```
 L'application sera accessible à l'adresse `http://localhost:8000`.
+
+## Contribution
+
+Les contributions sont les bienvenus ! Si vous avez des idées d'améliorations ou des bugs à signaler, n'hésitez pas à ouvrir une issue ou un pull request.
